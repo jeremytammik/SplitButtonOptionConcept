@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Application SplitButtonOptionConcept</Name>
+    <Assembly>SplitButtonOptionConcept.dll</Assembly>
+    <FullClassName>SplitButtonOptionConcept.AppFarClip</FullClassName>
+    <ClientId>857CDC4A-E75D-4A24-8205-EBEC92C7D0C6</ClientId>
+    <VendorId>AKS_</VendorId>
+    <VendorDescription>AKS, http://wmtao.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
