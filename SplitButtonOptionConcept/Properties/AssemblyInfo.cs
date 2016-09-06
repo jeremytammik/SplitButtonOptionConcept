@@ -38,7 +38,7 @@ using System.Runtime.InteropServices;
 // 2016-09-06 2016.0.0.0 Revit 2016 version built using Revit 2013 API assemblies and auto-installing for Revit 2015 and Revit 2016
 // 2016-09-06 2017.0.0.0 flat migration to Revit 2017 API
 // 2016-09-06 2017.0.0.1 cleanup
-// 2016-09-06 2017.0.0.2 cleanup
+// 2016-09-06 2017.0.0.2 whitespace
 //
 [assembly: AssemblyVersion( "2017.0.0.2" )]
 [assembly: AssemblyFileVersion( "2017.0.0.2" )]
