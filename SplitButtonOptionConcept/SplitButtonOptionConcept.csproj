@@ -11,7 +11,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SplitButtonOptionConcept</RootNamespace>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -85,15 +85,15 @@
     <Otherwise>
       <ItemGroup>
         <Reference Include="AdWindows">
-          <HintPath>C:\Program Files\Autodesk\Revit 2013\Program\AdWindows.dll</HintPath>
+          <HintPath>..\..\..\..\Program Files\Autodesk\Revit 2017\AdWindows.dll</HintPath>
           <Private>False</Private>
         </Reference>
         <Reference Include="RevitAPI">
-          <HintPath>C:\Program Files\Autodesk\Revit 2013\Program\RevitAPI.dll</HintPath>
+          <HintPath>..\..\..\..\Program Files\Autodesk\Revit 2017\RevitAPI.dll</HintPath>
           <Private>False</Private>
         </Reference>
         <Reference Include="RevitAPIUI">
-          <HintPath>C:\Program Files\Autodesk\Revit 2013\Program\RevitAPIUI.dll</HintPath>
+          <HintPath>..\..\..\..\Program Files\Autodesk\Revit 2017\RevitAPIUI.dll</HintPath>
           <Private>False</Private>
         </Reference>
       </ItemGroup>
@@ -152,10 +152,8 @@
     <Delete Files="$(AppData)\Autodesk\REVIT\Addins\2013\RevitAddin2016Template.dll" />
   </Target>
   <PropertyGroup>
-    <PostBuildEvent>copy "$(ProjectDir)$(ProjectName).addin" "$(AppData)\Autodesk\REVIT\Addins\2016"
-copy "$(ProjectDir)$(ProjectName).addin" "$(AppData)\Autodesk\REVIT\Addins\2015"
-	
-xcopy "$(TargetDir)$(ProjectName).dll" "$(AppData)\Autodesk\REVIT\Addins\2016" /k /e /y /r
-xcopy "$(TargetDir)$(ProjectName).dll" "$(AppData)\Autodesk\REVIT\Addins\2015" /k /e /y /r</PostBuildEvent>
+    <PostBuildEvent>copy "$(ProjectDir)$(ProjectName).addin" "$(AppData)\Autodesk\REVIT\Addins\2017"
+xcopy "$(TargetDir)$(ProjectName).dll" "$(AppData)\Autodesk\REVIT\Addins\2017" /k /e /y /r
+</PostBuildEvent>
   </PropertyGroup>
 </Project>
