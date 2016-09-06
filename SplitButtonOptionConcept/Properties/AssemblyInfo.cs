@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("SplitButtonOptionConcept")]
-[assembly: AssemblyDescription("SplitButtonOptionConcept")]
+[assembly: AssemblyDescription( "C# .NET Revit add-in demonstrating use of a stacked ribbon button to access a secondary command, e.g., option settings" )]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("WTA")]
 [assembly: AssemblyProduct("Revit Add-In")]
-[assembly: AssemblyCopyright("")]
+[assembly: AssemblyCopyright("Copyright (C) 2016 Jeremy Tammik Autodesk Inc.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,12 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+//
+// History:
+//
+// 2016-09-06 2016.0.0.0 Revit 2016 version built using Revit 2013 API assemblies and auto-installing for Revit 2015 and Revit 2016
+// 2016-09-06 2017.0.0.0 flat migration to Revit 2017 API
+// 2016-09-06 2017.0.0.1 cleanup
+//
+[assembly: AssemblyVersion("2017.0.0.1")]
+[assembly: AssemblyFileVersion("2017.0.0.1")]

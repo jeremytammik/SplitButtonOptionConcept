@@ -1,6 +1,6 @@
 # SplitButtonOptionConcept
 
-A C# .NET Revit add-in demonstrating use of a split ribbon button to access a secondary command, e.g., option settings.
+A C# .NET Revit add-in demonstrating use of a stacked ribbon button to access a secondary command, e.g., option settings.
 
 For more information, please refer [The Building Coder](http://thebuildingcoder.typepad.com) and
 the [Revit API discussion forum](http://forums.autodesk.com/t5/revit-api/bd-p/160) thread

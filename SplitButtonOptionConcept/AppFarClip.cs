@@ -41,10 +41,10 @@ namespace SplitButtonOptionConcept {
                 // Assume error generated is due to "WTA" already existing
             }
             PushButtonData pbSecAdjust = new PushButtonData("FarSideClip", "Far Clip", ExecutingAssemblyPath, ExecutingAssemblyName + ".SectionFarClipReset");
-            PushButtonData pbSecAdjustOpt = new PushButtonData("FarSideClipOpt", "Setting", ExecutingAssemblyPath, ExecutingAssemblyName + ".SectionFarClipResetOptions");
+            PushButtonData pbSecAdjustOpt = new PushButtonData("FarSideClipOpt", "Settings", ExecutingAssemblyPath, ExecutingAssemblyName + ".SectionFarClipResetOptions");
 
-            pbSecAdjust.LargeImage = NewBitmapImage(System.Reflection.Assembly.GetExecutingAssembly(), "SplitButtonOptionConcept.FarClip.PNG");
-            pbSecAdjustOpt.LargeImage = NewBitmapImage(System.Reflection.Assembly.GetExecutingAssembly(), "SplitButtonOptionConcept.FarClipSetting.PNG");
+            pbSecAdjust.LargeImage = NewBitmapImage(System.Reflection.Assembly.GetExecutingAssembly(), "SplitButtonOptionConcept.FarClip.png");
+            pbSecAdjustOpt.LargeImage = NewBitmapImage(System.Reflection.Assembly.GetExecutingAssembly(), "SplitButtonOptionConcept.FarClipSetting.png");
 
             // add button tips (when data, must be defined prior to adding button.)
             pbSecAdjust.ToolTip = "Reset a section's far clipping boundary to a close distance.";

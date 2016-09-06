@@ -135,8 +135,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="FarClip.PNG" />
-    <EmbeddedResource Include="FarClipSetting.PNG" />
+    <EmbeddedResource Include="FarClip.png" />
+    <EmbeddedResource Include="FarClipSetting.png" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="FarClipSettingWPF.xaml">
